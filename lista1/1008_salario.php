@@ -1,14 +1,15 @@
 <?php
 
-$numero_funcionario = intval(fgets(STDIN));
-$horas_trabalhadas = intval(fgets(STDIN));
-$valor_hora = floatval(fgets(STDIN));
+$numeroFuncionario = intval(fgets(STDIN));
+$horasTrabalhadas = intval(fgets(STDIN));
+$valorHora = floatval(fgets(STDIN));
 
-$salario = $horas_trabalhadas * $valor_hora;
+$salario = $horasTrabalhadas * $valorHora;
 
-echo "NUMBER = $numero_funcionario\n";
-echo "SALARY = " . number_format($salario, 2, '.', '') . "\n";
+echo "NUMBER = " . $numeroFuncionario . "\n";
+echo "SALARY = U$ " . number_format($salario, 2, '.', '') . "\n";
 
 ?>
+
 
  
