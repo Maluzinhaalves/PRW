@@ -13,5 +13,5 @@ $dias = $idadeDias;
 // Imprime a idade no formato anos, meses e dias
 echo "$anos ano(s)\n";
 echo "$meses mes(es)\n";
-echo "$dias dia(s)\n";
+echo "$dias dia(s)\n";        
 
