@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Escolha a opção desejada</h1>
+        <form action="form.php" method="POST" >
+    <div>
+            <input type="radio" name="operacao" value="soma">
+            <label for="operacao">Soma</label>
+               
+            </div>
+            <div>
+        <input type="radio" name="operacao" value="subtracao">
+        <label for="operacao">Subtração</label>
+          
+            </div>
+            <div>
+        <input type="radio" name="operacao" value="multiplicacao">
+        <label for="operacao">Multiplicação</label>
+              
+            </div>
+            <div>
+        <input type="radio" name="operacao" value="divisao">
+        <label for="operacao">Divisão</label>
+           
+            </div>
+    
+            <div>
+                <label for="n1">Numero 1:</label>
+                <input type="number" name="n1">
+            </div>
+            <div>
+                <label for="n2">Numero 2:</label>
+                <input type="number" name="n2">
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    
+</body>
+</html>

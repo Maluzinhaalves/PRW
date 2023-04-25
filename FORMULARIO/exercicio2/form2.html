@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action = "form2.php" method="POST" action="processa.php">
+		<label for="texto">Caixa de texto de uma linha:</label><br>
+		<input type="text" id="texto" name="texto"><br>
+
+		<label for="textoarea">Caixa de texto de rolagem:</label><br>
+		<textarea id="textoarea" name="textoarea"></textarea><br>
+
+		<label for="checkbox">Caixa de seleção:</label><br>
+		<input type="checkbox" id="checkbox" name="checkbox" value="1"><br>
+
+		<label for="radio1">Botão de opção 1:</label>
+		<input type="radio" id="radio1" name="radio" value="1"><br>
+		<label for="radio2">Botão de opção 2:</label>
+		<input type="radio" id="radio2" name="radio" value="2"><br>
+
+		<label for="menu">Menu suspenso:</label><br>
+		<select id="menu" name="menu">
+			<option value="opcao1">Opção 1</option>
+			<option value="opcao2">Opção 2</option>
+			<option value="opcao3">Opção 3</option>
+		</select><br>
+
+		<input type="submit" value="Enviar">
+	</form>
+
+    
+</body>
+</html>
